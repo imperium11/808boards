@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>808 Boards Clone</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f3f3f3;
+      }
+      header {
+        background-color: #000;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      nav {
+        background-color: #333;
+        overflow: hidden;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+      }
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 35px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+      }
+      .image-section {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .image-section img {
+        max-width: 90%;
+        height: 60%;
+      }
+      footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+    <script type="text/javascript">
+      (function (d, t) {
+        var v = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        v.onload = function () {
+          window.voiceflow.chat.load({
+            verify: { projectID: "65e029fbe7f13e093ab0d88b" },
+            url: "https://general-runtime.voiceflow.com",
+            versionID: "production",
+          });
+        };
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+        v.type = "text/javascript";
+        s.parentNode.insertBefore(v, s);
+      })(document, "script");
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>808 Boards</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+      <h2>Welcome to 808 Boards</h2>
+      <p>808 Customer Service Chatbot Demo</p>
+      <div class="image-section">
+        <img src="hawaii3.jpg" alt="Sample Image" />
+      </div>
+    </div>
+    <footer>
+      <p>© 2024 808 Boards Clone</p>
+    </footer>
+  </body>
+</html>
